@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "〇〇子育てサークル",
+        "description": "親子で交流しながら遊び、子育てに関する情報交換ができる地域コミュニティです。",
+        "targetAge": "0〜3歳",
+        "activityDay": "毎月第2・第4土曜日",
+        "place": "〇〇公民館",
+        "members": 35,
+        "image": "../images/communities/community1.jpg",
+        "eventIds": [1, 4]
+    },
+    {
+        "id": 2,
+        "name": "親子スポーツクラブ",
+        "description": "親子で体を動かしながら健康づくりや交流を楽しめます。",
+        "targetAge": "4〜6歳",
+        "activityDay": "毎週日曜日",
+        "place": "〇〇市総合体育館",
+        "members": 42,
+        "image": "../images/communities/community2.jpg",
+        "eventIds": [2]
+    },
+    {
+        "id": 3,
+        "name": "親子クッキングクラブ",
+        "description": "親子で料理を楽しみながら食育について学べるコミュニティです。",
+        "targetAge": "3〜6歳",
+        "activityDay": "毎月第1土曜日",
+        "place": "〇〇市民センター",
+        "members": 20,
+        "image": "../images/communities/community3.jpg",
+        "eventIds": [3]
+    }
+]

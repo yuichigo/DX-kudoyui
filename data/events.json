@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "title": "親子リトミック教室",
+        "date": "2026-07-20",
+        "time": "10:00〜12:00",
+        "place": "〇〇公民館",
+        "targetAge": "0〜3歳",
+        "capacity": 20,
+        "participants": 13,
+        "category": "音楽",
+        "image": "../images/events/event1.jpg",
+        "description": "親子で音楽を楽しみながら交流できるイベントです。初めて参加する方も安心して参加できます。"
+    },
+    {
+        "id": 2,
+        "title": "夏祭りイベント",
+        "date": "2026-07-28",
+        "time": "16:00〜19:00",
+        "place": "〇〇公園",
+        "targetAge": "全年齢",
+        "capacity": 100,
+        "participants": 76,
+        "category": "地域交流",
+        "image": "../images/events/event2.jpg",
+        "description": "屋台やゲーム、盆踊りなど家族みんなで楽しめる夏祭りです。"
+    },
+    {
+        "id": 3,
+        "title": "親子クッキング教室",
+        "date": "2026-08-03",
+        "time": "10:30〜12:30",
+        "place": "〇〇センター",
+        "targetAge": "4〜6歳",
+        "capacity": 15,
+        "participants": 9,
+        "category": "料理",
+        "image": "../images/events/event3.jpg",
+        "description": "親子で簡単なお菓子作りを体験できる料理教室です。"
+    },
+    {
+        "id": 4,
+        "title": "絵本読み聞かせ会",
+        "date": "2026-08-10",
+        "time": "14:00〜15:00",
+        "place": "〇〇図書館",
+        "targetAge": "0〜6歳",
+        "capacity": 30,
+        "participants": 18,
+        "category": "読書",
+        "image": "../images/events/event4.jpg",
+        "description": "読み聞かせボランティアによる絵本の読み聞かせ会です。"
+    }
+]
