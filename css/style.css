@@ -1,0 +1,94 @@
+/* ===== 共通設定 ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yu Gothic", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* ===== ヘッダー ===== */
+
+header {
+  background-color: #7cc6fe;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===== メインコンテンツ ===== */
+
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section h2 {
+  margin-bottom: 15px;
+}
+
+/* ===== 入力欄 ===== */
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ===== ボタン ===== */
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* ===== カード ===== */
+
+.event-card,
+.community-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fafafa;
+}
+
+/* ===== ナビゲーション ===== */
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #4caf50;
+}

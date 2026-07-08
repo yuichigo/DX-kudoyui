@@ -1,0 +1,53 @@
+/* ===== イベント画面専用CSS ===== */
+
+/* 検索エリア */
+
+select {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* イベントカード */
+
+.event-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 6px solid #4caf50;
+  transition: 0.3s;
+}
+
+.event-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.event-card h3 {
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.event-card p {
+  margin-bottom: 8px;
+}
+
+/* 詳細ボタン */
+
+.event-card button {
+  margin-top: 10px;
+}
+
+/* スマホ対応 */
+
+@media (max-width: 768px) {
+  select {
+    width: 100%;
+  }
+
+  .event-card {
+    padding: 15px;
+  }
+}

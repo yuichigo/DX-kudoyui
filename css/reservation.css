@@ -1,0 +1,26 @@
+﻿/* ===== 予約画面専用CSS ===== */
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  padding: 15px;
+  background-color: #ff7043;
+}
+
+button:hover {
+  background-color: #f4511e;
+}

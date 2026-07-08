@@ -1,0 +1,71 @@
+/* ===== マイページ専用CSS ===== */
+
+/* プロフィール */
+
+section p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* 子どもの情報・参加履歴 */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f8f8f8;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* イベントカード */
+
+.event-card {
+  background-color: white;
+  border-left: 6px solid #ff9800;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-card h3 {
+  color: #ff9800;
+  margin-bottom: 10px;
+}
+
+/* 口コミ */
+
+.review-card {
+  background-color: #fff8dc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.review-card h3 {
+  color: #f4b400;
+  margin-bottom: 10px;
+}
+
+/* スマホ対応 */
+
+@media (max-width: 768px) {
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .event-card,
+  .review-card {
+    padding: 12px;
+  }
+}
