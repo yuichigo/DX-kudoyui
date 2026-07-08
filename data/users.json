@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "山田 花子",
+        "age": 30,
+        "email": "hanako@example.com",
+        "address": "〇〇市",
+        "children": [
+            {
+                "name": "太郎",
+                "age": 3
+            },
+            {
+                "name": "花",
+                "age": 1
+            }
+        ],
+        "joinedCommunities": [1],
+        "reservedEvents": [1, 3],
+        "participatedEvents": [4]
+    },
+    {
+        "id": 2,
+        "name": "佐藤 美咲",
+        "age": 35,
+        "email": "misaki@example.com",
+        "address": "〇〇市",
+        "children": [
+            {
+                "name": "悠斗",
+                "age": 5
+            }
+        ],
+        "joinedCommunities": [2],
+        "reservedEvents": [2],
+        "participatedEvents": [1]
+    }
+]
