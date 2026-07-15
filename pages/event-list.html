@@ -18,7 +18,11 @@
     <section>
       <h2>イベント検索</h2>
 
-      <input type="text" placeholder="イベント名" />
+      <input
+        type="text"
+        id="search-input"
+        placeholder="イベント名や地域を入力"
+      />
 
       <select>
         <option>子どもの年齢</option>
@@ -27,53 +31,13 @@
         <option>小学生</option>
       </select>
 
-      <button>検索</button>
+      <button onclick="searchEvents()">検索</button>
     </section>
 
     <section>
       <h2>開催予定イベント</h2>
 
-      <div class="event-card">
-        <h3>親子リトミック教室</h3>
-
-        <p>日時：2026年7月20日</p>
-
-        <p>場所：〇〇公民館</p>
-
-        <p>対象：0〜3歳</p>
-
-        <button onclick="location.href = 'event-detail.html'">
-          詳細を見る
-        </button>
-      </div>
-
-      <div class="event-card">
-        <h3>夏祭りイベント</h3>
-
-        <p>日時：2026年7月28日</p>
-
-        <p>場所：〇〇公園</p>
-
-        <p>対象：全年齢</p>
-
-        <button onclick="location.href = 'event-detail.html'">
-          詳細を見る
-        </button>
-      </div>
-
-      <div class="event-card">
-        <h3>親子クッキング教室</h3>
-
-        <p>日時：2026年8月3日</p>
-
-        <p>場所：〇〇センター</p>
-
-        <p>対象：4〜6歳</p>
-
-        <button onclick="location.href = 'event-detail.html'">
-          詳細を見る
-        </button>
-      </div>
+      <div id="event-list"></div>
     </section>
 
     <nav>
@@ -85,5 +49,7 @@
 
       <a href="mypage.html">マイページ</a>
     </nav>
+    <script src="../js/main.js"></script>
+    <script src="../js/search.js"></script>
   </body>
 </html>
