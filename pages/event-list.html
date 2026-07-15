@@ -31,43 +31,13 @@
         <option>小学生</option>
       </select>
 
-      <button>検索</button>
+      <button onclick="searchEvents()">検索</button>
     </section>
 
     <section>
       <h2>開催予定イベント</h2>
 
-      <div class="event-card">
-        <h3>親子リトミック教室</h3>
-
-        <p>日時：2026年7月20日</p>
-
-        <p>場所：〇〇公民館</p>
-
-        <p>対象：0〜3歳</p>
-
-        <button onclick="location.href = 'event-detail.html'">
-          詳細を見る
-        </button>
-      </div>
-
-      <div class="event-card">
-        <h3>夏祭りイベント</h3>
-
-        <p>日時：2026年7月28日</p>
-
-        <p>場所：〇〇公園</p>
-
-        <p>対象：全年齢</p>
-
-        <button onclick="searchEvents()">検索</button>
-      </div>
-
-      <section>
-        <h2>開催予定イベント</h2>
-
-        <div id="event-list"></div>
-      </section>
+      <div id="event-list"></div>
     </section>
 
     <nav>
