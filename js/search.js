@@ -10,6 +10,8 @@ async function loadEvents() {
     const response = await fetch("../data/events.json");
     events = await response.json();
 
+    console.log(events);
+
     displayEvents(events);
   } catch (error) {
     console.error("イベントデータの読み込みに失敗しました。", error);
@@ -54,13 +56,15 @@ function displayEvents(eventList) {
 
 function searchEvents() {
   const keyword = document.getElementById("search-input").value.toLowerCase();
-
+  console.log(keyword);
   const filteredEvents = events.filter(
     (event) =>
       event.title.toLowerCase().includes(keyword) ||
       event.place.toLowerCase().includes(keyword) ||
       event.category.toLowerCase().includes(keyword),
   );
+
+  console.log(filteredEvents);
 
   displayEvents(filteredEvents);
 }
