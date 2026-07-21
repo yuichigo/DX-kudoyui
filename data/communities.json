@@ -7,7 +7,6 @@
         "activityDay": "毎月第2・第4土曜日",
         "place": "〇〇公民館",
         "members": 35,
-        "image": "../images/communities/community1.jpg",
         "eventIds": [1, 4]
     },
     {
@@ -18,7 +17,6 @@
         "activityDay": "毎週日曜日",
         "place": "〇〇市総合体育館",
         "members": 42,
-        "image": "../images/communities/community2.jpg",
         "eventIds": [2]
     },
     {
@@ -29,7 +27,6 @@
         "activityDay": "毎月第1土曜日",
         "place": "〇〇市民センター",
         "members": 20,
-        "image": "../images/communities/community3.jpg",
         "eventIds": [3]
     }
 ]

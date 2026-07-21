@@ -36,8 +36,6 @@ function displayEvent(event) {
 
         <h2>${event.title}</h2>
 
-        <img src="${event.image}" alt="${event.title}" width="100%">
-
         <p><strong>日時：</strong>${event.date}</p>
 
         <p><strong>時間：</strong>${event.time}</p>

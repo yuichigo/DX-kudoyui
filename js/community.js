@@ -41,8 +41,6 @@ function displayCommunity(community, events) {
 
         <h2>${community.name}</h2>
 
-        <img src="${community.image}" alt="${community.name}" width="100%">
-
         <p><strong>活動内容：</strong>${community.description}</p>
 
         <p><strong>対象年齢：</strong>${community.targetAge}</p>
