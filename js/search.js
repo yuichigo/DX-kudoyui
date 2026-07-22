@@ -12,7 +12,7 @@ async function loadEvents() {
 
     console.log(events);
 
-    displayEvents(events);
+    //displayEvents(events);
   } catch (error) {
     console.error("イベントデータの読み込みに失敗しました。", error);
   }
@@ -73,6 +73,18 @@ function searchEvents() {
 // 初期処理
 // =============================
 
-document.addEventListener("DOMContentLoaded", () => {
-  loadEvents();
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadEvents();
+
+  // URLのパラメータを取得
+  const params = new URLSearchParams(window.location.search);
+  const keyword = params.get("keyword");
+
+  // キーワードがあれば検索欄に入れて検索
+  if (keyword) {
+    document.getElementById("search-input").value = keyword;
+    searchEvents();
+  } else {
+    displayEvents(events);
+  }
 });
